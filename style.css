@@ -1,0 +1,14 @@
+.popup {
+  display: none;
+}
+.popup.displayed {
+  display: block;
+}
+
+#optionsContainer {
+  border: 3px red solid;
+}
+
+/* * {
+  border: 3px red solid;
+} */
