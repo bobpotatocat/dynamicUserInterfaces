@@ -1,14 +1,45 @@
-.popup {
-  display: none;
+#picturesContainer {
+  background-color: antiquewhite;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-items: center;
 }
-.popup.displayed {
-  display: block;
+#mainContainer {
+  border: 5px red solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 4 1 0;
+}
+#leftContainer {
+  border: 3px blue solid;
+  flex: 1 1 0;
+  display: flex;
+  justify-content: center;
 }
 
-#optionsContainer {
-  border: 3px red solid;
+#rightContainer {
+  border: 3px blue solid;
+  flex: 1 1 0;
+  display: flex;
+  justify-content: center;
 }
 
-/* * {
-  border: 3px red solid;
-} */
+img.picture {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+#buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.button.selected {
+  transform: scale(1.5);
+}
